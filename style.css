@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-family: 'Overpass', sans-serif;
+    width: 20rem;
+}
+
+.star_image_container{
+    background-color: hsl(216, 18%, 33%);
+    border-radius: 50%;
+    width: 2.5rem;
+	height: 2.5rem;
+    display: grid;
+    place-content: center;
+}
+
+h1{
+    margin-top: 2rem;
+    color: white;
+}
+
+p{
+    margin-top: -1rem;
+    color:hsl(217, 12%, 63%);
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.puntuation_container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.puntuation{
+    border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+    font-weight: bold;
+    background-color: hsl(216, 18%, 33%);
+    display: grid;
+    place-content: center;
+    font-size: 0.8rem;
+    border: 0rem solid;
+    color: hsl(217, 12%, 63%);
+}
+
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-weight: 700;
+    border-radius: 2rem;
+    border: 0rem solid;
+    height: 2rem;
+    font-family: 'Overpass', sans-serif;
+}
+
+.submit:hover{
+    background-color: white;    
+    color:hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.submit:disabled{
+    cursor: not-allowed;
+}
+
+.puntuation:hover{
+    background-color: hsl(25, 97%, 53%);    
+    color: white;
+    cursor: pointer;
+}
+
+.puntuation:focus{
+    background-color: hsl(217, 12%, 63%); 
+    color: white;
+}
+
+.result{
+    display: none;
+    text-align: center;
+}
+
+.rate_text{    
+    background-color: hsl(216, 18%, 33%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 2rem;
+    margin: auto;
+    width: 60%;
+    margin-top: 2rem;
+    padding: 0.3rem;
+}
+
+
+
+
